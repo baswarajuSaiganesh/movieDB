@@ -1,0 +1,30 @@
+.list-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+@media (min-width: 992px){
+    .list-item{
+        margin-top: 24px;
+        margin-right: 36px;
+        margin-left: 36px;
+    }
+}
+
+.poster{
+    height: 350px;
+}
+
+p{
+    margin: 2px;
+    font-size: 12px;
+}
+
+@media (min-width:992px){
+    p{
+        font-size: 16px;
+        font-weight: 700;
+    }
+}
